@@ -12,7 +12,8 @@
 .main_box {
   margin: 182px 0 0 0;
   min-width: 800px;
-
+  min-height: 100dvh;
+  flex: 1;
 
   .title {
     width: 80%;
@@ -116,28 +117,72 @@
 
 /*part */
 .info {
+  margin-top: 108px;
   width: 100%;
-  border: 1px solid red;
   display: flex;
   justify-content: space-between;
+
 }
 
 .quantity {
-  width: 189.5px;
+  width: 201.5px;
   height: 137px;
+  border-left: 2px solid $color;
+  & p {
+    width: 172px;
+    height: 41px;
+  }
+
+  & span {
+    width: 70%;
+    height: 57px;
+    margin-left: 23.5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: $color;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 141.3%;
+    letter-spacing: 0;
+  }
 }
 
 .percent {
+  width: 201.5px;
+  height: 132px;
+  border-left: 2px solid $color;
+  & p {
+    width: 166px;
+    height: 45px;
 
+  }
+
+  & span {
+    color: $color;
+    margin-left: 29.5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 141.3%;
+    letter-spacing: 0;
+    width: 70%;
+    height: 57px;
+  }
 }
 
 /*part mentor*/
 .mentor {
-  margin: 27px 0  0 100px;
+  margin: 27px 0 0 100px;
   min-width: 525px;
+  min-height: 100dvh;
+  flex: 0;
 
   img {
     width: 100%;
+    height: 100%;
   }
 
 }

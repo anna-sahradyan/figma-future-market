@@ -22,11 +22,13 @@ const Home = () => {
                     </button>
                 </div>
                 <section className="info">
-                    <div className="quantity"></div>
-                    <div className="percent">
-
+                    <div className="quantity"><span>130 +</span>
+                        <p>техник для достижения целей</p></div>
+                    <div className="percent"><span>250%</span>
+                        <p>увеличение личной продуктивности</p>
                     </div>
                 </section>
+
             </section>
 
             <section className={'mentor'}>
