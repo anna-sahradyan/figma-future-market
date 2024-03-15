@@ -52,6 +52,7 @@
 }
 .phone {
   width: 217px;
+  cursor: pointer;
 }
 
 .main {
@@ -180,7 +181,6 @@
 
 /*part */
 .info {
-  margin-top: 108px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -191,6 +191,7 @@
 }
 
 .quantity {
+  margin-top: 113px;
   width: 201.5px;
   height: 137px;
   border-left: 2px solid rgba(255, 255, 255, 0.8);
@@ -200,16 +201,10 @@
   height: 41px;
 }
 .quantity span {
+  margin: 15px 0 15px 12px;
   width: 70%;
   height: 57px;
-  margin-left: 23.5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
+  display: inline-block;
   color: rgba(255, 255, 255, 0.8);
   font-size: 40px;
   font-weight: 600;
@@ -218,6 +213,7 @@
 }
 
 .percent {
+  margin-top: 148px;
   width: 201.5px;
   height: 132px;
   border-left: 2px solid rgba(255, 255, 255, 0.8);
@@ -227,15 +223,9 @@
   height: 45px;
 }
 .percent span {
+  margin: 15px 0 10px 28px;
+  display: inline-block;
   color: rgba(255, 255, 255, 0.8);
-  margin-left: 29.5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
   font-size: 40px;
   font-weight: 600;
   line-height: 141.3%;
@@ -290,9 +280,11 @@ body {
   line-height: 1.2;
   background-color: #07305D;
   overflow-x: hidden;
+  -webkit-background-size: cover;
 }
 
 .container {
-  min-width: 1410px;
+  width: 100%;
+  max-width: 1410px;
   margin: 0 auto;
 }

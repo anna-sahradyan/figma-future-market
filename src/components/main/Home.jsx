@@ -1,6 +1,17 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import {sum} from './DateSum';
+import {useDispatch, useSelector} from "react-redux";
+import {fetchGbpRate} from "../../redux/currencySlice";
+
 
 const Home = () => {
+    const gbpRate = useSelector((state) => state.gbpRate.gbpRate);
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(fetchGbpRate())
+    }, [dispatch]);
+
     return (
         <div className={"main"}>
             <section className="main_box">
@@ -22,9 +33,9 @@ const Home = () => {
                     </button>
                 </div>
                 <section className="info">
-                    <div className="quantity"><span>130 +</span>
+                    <div className="quantity"><span>{sum}+</span>
                         <p>техник для достижения целей</p></div>
-                    <div className="percent"><span>250%</span>
+                    <div className="percent"><span>{gbpRate}%</span>
                         <p>увеличение личной продуктивности</p>
                     </div>
                 </section>

@@ -31,10 +31,11 @@ body {
   line-height: 1.2;
   background-color: #07305D;
   overflow-x: hidden;
+  -webkit-background-size: cover;
 }
 
 .container {
-  min-width: 1410px;
+  width: 100%;
+  max-width: 1410px;
   margin: 0 auto;
-
 }
