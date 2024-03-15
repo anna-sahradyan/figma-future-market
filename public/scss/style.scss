@@ -1,0 +1,39 @@
+@import "header";
+@import "home";
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "Raleway Dots", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  min-height: 100dvh;
+  background-image: url('../img/background1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  background-color: #07305D;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1410px;
+  margin: 0 auto;
+
+}

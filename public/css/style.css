@@ -1,0 +1,240 @@
+.header {
+  margin-top: 40px;
+  width: 1320px;
+  height: 40.46px;
+}
+
+.header-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.header-inner .logo {
+  width: 184px;
+  margin-right: auto;
+}
+.header-inner .logo div {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  margin-bottom: 6px;
+}
+
+.nav_menu {
+  margin: 0 187px 0 0;
+  width: 644.85px;
+  height: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.nav_menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.nav_menu li {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 122.8%;
+  color: white;
+  width: 32%;
+  margin: 0 10px;
+}
+.phone {
+  width: 217px;
+}
+
+.main {
+  margin-top: 58px;
+  min-width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main_box {
+  margin: 182px 0 0 0;
+  min-width: 800px;
+}
+.main_box .title {
+  width: 80%;
+  margin-top: 53px;
+}
+.main_box .title h1 {
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 135.3%;
+  letter-spacing: 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+.main_box .text {
+  margin-top: 67px;
+}
+.main_box p {
+  width: 675px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 24px;
+  white-space: pre-wrap;
+}
+
+/*part btn */
+.btn_box {
+  margin-top: 65.28px;
+  width: 100%;
+  height: 73px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.btn {
+  cursor: pointer;
+  width: 380px;
+  height: 72.42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.text_btn {
+  display: inline-block;
+  width: 270px;
+  height: 22.44px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 122.8%;
+  letter-spacing: 0;
+}
+
+.blue_btn {
+  background-color: #133457;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.img_b {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+  position: relative;
+  top: 36px;
+  left: 24px;
+}
+
+.img_w {
+  position: relative;
+  top: 36px;
+  left: 24px;
+}
+
+.img_btn {
+  display: inline-block;
+  width: 70px;
+  height: 100%;
+  border-left: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.white_btn .img_btn {
+  border-left: 2px solid #07305D;
+}
+
+.white_btn {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #133457;
+  color: #133457;
+}
+
+/*part */
+.info {
+  width: 100%;
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.quantity {
+  width: 189.5px;
+  height: 137px;
+}
+
+/*part mentor*/
+.mentor {
+  margin: 27px 0 0 100px;
+  min-width: 525px;
+}
+.mentor img {
+  width: 100%;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  font-family: "Raleway Dots", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  min-height: 100dvh;
+  background-image: url("../img/background1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  background-color: #07305D;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1410px;
+  margin: 0 auto;
+}
