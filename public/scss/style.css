@@ -43,6 +43,10 @@
   cursor: pointer;
 }
 
+.drawer {
+  width: 612px;
+}
+
 .main {
   margin-top: 58px;
   min-width: 100%;
@@ -134,7 +138,7 @@
 
 .img_btn {
   display: inline-block;
-  width: 70px;
+  width: 67.5px;
   height: 100%;
   border-left: 2px solid rgba(255, 255, 255, 0.8);
 }
@@ -210,6 +214,131 @@
 .mentor img {
   width: 100%;
   height: 100%;
+}
+
+.phone-form-wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  cursor: pointer;
+}
+.phone-form-wrapper::-webkit-scrollbar {
+  width: 0;
+}
+
+.phone_inner {
+  position: relative;
+  margin: 40px 32px 174px 75px;
+  width: 505px;
+  min-height: 733px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.title_phone {
+  margin: 30px 0 5px 2px;
+  width: 490px;
+  height: 148px;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 148.8%;
+  letter-spacing: 0;
+  color: #FFFFFF;
+}
+
+.check {
+  margin-top: 110.5px;
+  display: flex;
+  width: 400px;
+  height: 42px;
+}
+.check span {
+  flex: 1;
+  width: 343px;
+  height: 100%;
+  margin-left: 6px;
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 122.8%;
+  letter-spacing: 3.5px;
+}
+
+.btn_box_phone {
+  margin-top: 89px;
+  width: 100%;
+  height: 73px;
+  display: flex;
+}
+
+.img_b_phone {
+  filter: brightness(0) invert(1);
+  position: relative;
+  top: 36px;
+  left: 10px;
+}
+
+.blue_btn_phone {
+  background-color: #133457;
+  border: 1px solid #FFFFFF;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.message_box {
+  height: 100vh;
+  overflow-y: auto;
+  cursor: pointer;
+}
+.message_box::-webkit-scrollbar {
+  width: 0;
+}
+
+.message_inner {
+  margin: 40px 32px 174px 75px;
+  width: 489.41px;
+  height: 826px;
+}
+
+.message_title {
+  margin: 159px 115px 98px 105px;
+  width: 227px;
+  min-height: 158px;
+}
+.message_title h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 157.8%;
+  letter-spacing: 0;
+  color: #FFFFFF;
+}
+
+.message_sub_title {
+  margin: 98px 42.41px 209px 0;
+}
+.message_sub_title h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 145%;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.message_logo {
+  margin: 0 33.24px 0 289px;
+  width: 169px;
+  height: 15px;
+}
+.message_logo div {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 html {

@@ -1,16 +1,19 @@
 import React from 'react';
 import Header from "./components/header/Header";
 import Home from "./components/main/Home";
+import {Toaster} from "react-hot-toast";
+
 
 
 const App = () => {
 
     return (
         <>
-        <div className={'container'}>
-            <Header/>
-            <Home/>
-        </div>
+            <Toaster/>
+            <div className={'container'}>
+                <Header/>
+                <Home/>
+            </div>
         </>
     );
 };
