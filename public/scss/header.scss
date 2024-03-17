@@ -12,16 +12,10 @@
   align-items: center;
   text-align: center;
 
-
   .logo {
     width: 184px;
     margin-right: auto;
 
-    & div {
-      width: 100%;
-      border: 1px solid $border;
-      margin-bottom: 6px;
-    }
   }
 
 }
@@ -34,12 +28,12 @@
   justify-content: center;
 
 
-  & ul {
+  ul {
     display: flex;
     justify-content: center;
   }
 
-  & li {
+  li {
     justify-content: center;
     font-size: 14px;
     font-weight: 400;
@@ -49,14 +43,46 @@
     margin: 0 10px;
   }
 
-  & a {
+  a {
   }
 }
 
 .phone {
+
   width: 217px;
   cursor: pointer;
+
+  .inner_phone {
+    display: flex;
+    width: 100%;
+  }
+
+  .phone_number {
+    width: 250.15px;
+    height: 22.48px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: $color2;
+    line-height: $lineHeight;
+    letter-spacing: 0.36px;
+    font-size: 18px;
+    margin: 9px 0 0 13px;
+
+    .phone_number img {
+      width: 40.46px;
+      height: 40.46px;
+    }
+  }
+
+  .burger {
+    width: 40.46px;
+    height: 40.46px;
+    margin-right: 16px;
+  }
 }
-.drawer{
+
+.drawer {
   width: 612px;
 }
+

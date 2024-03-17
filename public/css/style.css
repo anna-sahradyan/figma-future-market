@@ -17,11 +17,6 @@
   width: 184px;
   margin-right: auto;
 }
-.header-inner .logo div {
-  width: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  margin-bottom: 6px;
-}
 
 .nav_menu {
   margin: 0 187px 0 0;
@@ -53,6 +48,37 @@
 .phone {
   width: 217px;
   cursor: pointer;
+}
+.phone .inner_phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+.phone .phone_number {
+  width: 250.15px;
+  height: 22.48px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFFFFF;
+  line-height: 122.8%;
+  letter-spacing: 0.36px;
+  font-size: 18px;
+  margin: 9px 0 0 13px;
+}
+.phone .phone_number .phone_number img {
+  width: 40.46px;
+  height: 40.46px;
+}
+.phone .burger {
+  width: 40.46px;
+  height: 40.46px;
+  margin-right: 16px;
 }
 
 .drawer {
@@ -89,6 +115,7 @@
   line-height: 135.3%;
   letter-spacing: 0;
   color: rgba(255, 255, 255, 0.8);
+  text-transform: uppercase;
 }
 .main_box .text {
   margin-top: 67px;
@@ -183,7 +210,7 @@
   color: #133457;
 }
 
-/*part */
+/*part  info*/
 .info {
   width: 100%;
   display: -webkit-box;
@@ -321,7 +348,7 @@
           filter: brightness(0) invert(1);
   position: relative;
   top: 36px;
-  left: 10px;
+  left: 30px;
 }
 
 .blue_btn_phone {
